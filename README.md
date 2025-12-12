@@ -1,29 +1,25 @@
 Мой интернет-блог  
 <br/>Простой блог на PHP с регистрацией пользователей, постами, комментариями и загрузкой изображений.  
-<br/>Содержание  
-<br/>· Структура проекта  
-· Функционал  
-· Использование  
-· Технологии  
+
 <br/>Структура проекта  
 blog-project/  
-├── index.php              # Главная страница  
-├── login.php              # Страница входа  
-├── register.php           # Страница регистрации  
-├── create.php             # Создание поста  
-├── post.php               # Просмотр поста  
-├── logout.php             # Выход из системы  
-├── data/                  # Хранение данных  
+├──+ index.php             
+├── login.php              
+├── register.php         
+├── create.php            
+├── post.php               
+├── logout.php           
+├── data/                   
 │   ├── users.json  
 │   ├── posts.json  
 │   └── comments.json  
-├── includes/         #Вспомогательные файлы  
+├── includes/        
 │   ├── bootstrap.php  
 │   ├── functions.php  
 │   └── User.php  
 ├── css/  
-│   └── style.css         # Стили  
-└── uploads/              #Загруженные изображения  
+│   └── style.css       
+└── uploads/               
 <br/><br/>Функционал  
 <br/>Регистрация и авторизация  
 <br/>· Регистрация  
