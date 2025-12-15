@@ -11,7 +11,7 @@ blog-project/
 ├── login.php              # Страница входа  
 ├── register.php           # Страница регистрации  
 ├── create.php             # Создание поста  
-├── post.php               # Просмотр поста и комментарии 
+├── post.php               # Просмотр поста 
 ├── logout.php             # Выход из системы  
 ├── data/                  # Хранение данных  
 │   ├── users.json  
